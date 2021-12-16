@@ -1,0 +1,399 @@
+// Tablets & Smaller
+
+@media (max-width: 800px) {
+  //console.log(window.innerWidth);
+
+  // First container
+
+  // Toggle
+
+  .toggle {
+    display: block;
+    padding: 20px 20px 0px 0px;
+  }
+
+  nav {
+    width: 100vw;
+    height: 12vh; //60vh
+    .nav-links {
+      padding: 0px !important;
+      display: none; //flex
+      justify-content: center;
+      flex-direction: column;
+      width: 100vw !important;
+      margin-top: 71px;
+
+      li .nav-l {
+        font-size: 30px;
+
+        display: flex;
+        justify-content: center;
+
+        width: 100vw;
+
+        &:hover {
+          width: 100vw !important;
+        }
+      }
+    }
+
+    // Bottom Header
+
+    .bottom-header {
+      margin: 10px;
+      padding: 0;
+
+      h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    //Buttons
+  }
+  .buttons button#next {
+    top: 110%;
+  }
+
+  .buttons button#prev {
+    top: 110%;
+  }
+
+  .logo-container {
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+
+    .main-logo {
+      position: absolute;
+      height: 100px;
+      top: 0px;
+      bottom: 30px;
+      padding-left: 20px;
+    }
+  }
+
+  .logo-container2 {
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+
+    .main-logo2 {
+      position: absolute;
+      height: 100px;
+      top: 0px;
+      bottom: 30px;
+      padding-left: 20px;
+    }
+  }
+
+  .absolute {
+    height: 60vh !important;
+    display: flex !important;
+  }
+
+  // Second Container
+
+  .display-section {
+    height: 290vh;
+  }
+
+  .display-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    .container-one {
+      display: flex; //Should be flex
+      justify-content: center;
+    }
+  }
+
+  .container-two {
+    width: 100vw;
+    margin: 0;
+    position: relative;
+  }
+
+  .container-three {
+    border-top: 1px solid #d3d3d3;
+    width: 100vw;
+    margin: 0;
+    position: relative;
+  }
+
+  .container-four {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    padding: 0;
+
+    img {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .us-container {
+    height: 142vh;
+  }
+
+  // Advertising
+
+  .ad-container {
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+    img {
+      height: 325px;
+    }
+  }
+
+  // Bottom Gallery
+
+  .buttomImg-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .mainbuttom-container {
+    img {
+      height: 40vh;
+      width: 83vw;
+    }
+  }
+
+  .overlay {
+    height: 40vh;
+    width: 83vw;
+  }
+
+  //#footer
+
+  #footer {
+    height: 65vh;
+  }
+
+  .mainFooter-header {
+    padding-top: 30px;
+    text-align: center;
+
+    h2 {
+      color: #fff5e9;
+      font-size: 45px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    p {
+      margin-bottom: 5px;
+    }
+  }
+
+  // About
+  .main-absolute {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100vw;
+      padding-right: 38px;
+    }
+  }
+
+  .absolute-text,
+  .absolute-text2 {
+    display: inline-block;
+    width: 100vw;
+    position: relative;
+
+    p {
+      padding-right: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .intro-absolute {
+    padding: 5px;
+    h2 {
+      padding: 5px;
+    }
+
+    height: 60vh;
+  }
+
+  // Events
+
+  .events-header {
+    text-align: center;
+
+    h2 {
+      font-size: 50px;
+    }
+  }
+
+  .events-container2 {
+    display: flex;
+    flex-direction: column;
+
+    .events-text1 {
+      overflow: scroll;
+      text-align: center;
+      height: 53vh;
+    }
+
+    img {
+      width: 100vw;
+      height: auto;
+    }
+  }
+
+  .events-wrapper {
+    height: 102vh;
+  }
+
+  // Cookies
+
+  .mainProducts-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  //No display
+
+  .no-display {
+    display: none;
+  }
+
+  .pink {
+    height: 10vh;
+    background: #f3ceea;
+  }
+}
+
+@media (max-width: 500px) {
+  // Index
+
+  .ad-container {
+    display: none;
+    h2 {
+      font-size: 10px;
+    }
+  }
+
+  .container-two,
+  .container-three {
+    height: 50vh;
+    h2 {
+      font-size: 50px;
+      line-height: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .bottom-header h2 {
+    font-size: 50px;
+  }
+
+  .mainFooter-header h2 {
+    font-size: 35px;
+  }
+
+  // About
+
+  .intro-absolute {
+    h2 {
+      font-size: 30px;
+    }
+
+    height: 38vh;
+  }
+
+  .absolute-text,
+  .absolute-text2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  // Events
+
+  .events-container2 {
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .events-absoluteContainer {
+    display: none;
+  }
+
+  .events-container {
+    display: none;
+  }
+
+  .events-text1 {
+    padding-left: 0;
+    padding-right: 0;
+    height: 40vh !important;
+    background: #fbfbfb;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2;
+    overflow: scroll;
+
+    h2 {
+      font-size: 30px !important;
+    }
+  }
+
+  .events-wrapper {
+    background: #f3ceea;
+    height: 70vh;
+  }
+
+  // Cookies
+
+  .mainProducts-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+
+    img {
+      width: 300px;
+      height: auto;
+    }
+
+    .productText-container {
+      padding: 0;
+      margin: 0;
+
+      h2 {
+        font-size: 30px;
+      }
+
+      text-align: center;
+      width: 300px;
+      height: auto;
+    }
+  }
+  // Questions
+  .events-wrapper {
+    height: 100vh;
+    .events-text1 {
+      height: 90vh;
+    }
+  }
+}
